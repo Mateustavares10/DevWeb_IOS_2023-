@@ -1,0 +1,16 @@
+@charset "utf-8" ;
+ 
+* {
+    font-family: 'Roboto mono', monospace;
+    font-weight: 700;
+    background-color: #b3e9f3;
+    font-size: 1rem;
+}
+
+.Principal {
+    background-color:#6590d1 ;
+    text-shadow: 3px 3px 3px #48789f;
+}
+
+ 
+    
