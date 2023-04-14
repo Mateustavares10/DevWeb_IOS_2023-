@@ -1,0 +1,11 @@
+@charset "utf-8" ;
+
+#sasuke {
+
+    border: 1px solid #000000 ;
+    padding: 25px;
+}
+
+#naruto {
+    margin: 0 25px 0 0;
+}
