@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+h1:hover {
+    color: aqua;
+    background-color: black;
+}
+
+p:first-of-type {
+    color: blue;
+}
+
+p:nth-child(2) {
+
+    color: brown;
+}
+
+h3:not(p) {
+    color: aqua;
+}
+
+a:link {
+    color: black;
+    background-color: aqua;
+}
+
+li::after {
+    content: "-leia-me";
+    background-color: black;
+    color: aquamarine;
+}
+
+li::before {
+    content: "Assista";
+    background-color: black;
+    color: aquamarine;
+}
+
+h2::first-line {
+    background-color: black;
+    color: aquamarine;
+}
+
+h3 {
+    float: right;
+    width: 50%;
+}
