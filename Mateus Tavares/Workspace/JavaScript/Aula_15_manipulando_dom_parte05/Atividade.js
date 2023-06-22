@@ -14,43 +14,43 @@ const pegaNome = () => {
         
 
         switch (cargo) {
-            case 'analista':
-                numeroCargo = 1;
+            case "1":
+                numeroCargo = "Estagio";
                 alert(`Olá ${nome}, seu cargo é ${numeroCargo}, vamos te redirecionar para a página desejada`);
                 break;
 
-            case 'estagio':
-                numeroCargo = 2;
+            case "2":
+                numeroCargo = "Trainee";
                 alert(`Olá ${nome}, seu cargo é ${numeroCargo}, vamos te redirecionar para a página desejada`);
                 break;
 
-            case 'trainee':
-                numeroCargo = 3;
+            case "3":
+                numeroCargo = "Analista";
                 alert(`Olá ${nome}, seu cargo é ${numeroCargo}, vamos te redirecionar para a página desejada`);
                 break;
 
-            case 'junior':
-                numeroCargo = 4;
+            case "4":
+                numeroCargo = "Junior";
                 alert(`Olá ${nome}, seu cargo é ${numeroCargo}, vamos te redirecionar para a página desejada`);
                 break;
 
-            case 'pleno':
-                numeroCargo = 5;
+            case "5":
+                numeroCargo = "Pleno";
                 alert(`Olá ${nome}, seu cargo é ${numeroCargo}, vamos te redirecionar para a página desejada`);
                 break;
 
-            case 'senior':
-                numeroCargo = 6;
+            case "6":
+                numeroCargo = "Senior" ;
                 alert(`Olá ${nome}, seu cargo é ${numeroCargo}, vamos te redirecionar para a página desejada`);
                 break;
 
-            case 'lider tecnico':
-                numeroCargo = 7;
+            case "7":
+                numeroCargo = "Lider tecnico";
                 alert(`Olá ${nome}, seu cargo é ${numeroCargo}, vamos te redirecionar para a página desejada`);
                 break;
 
-            case 'ceo':
-                numeroCargo = 8;
+            case "8":
+                numeroCargo = "CEO";
                 alert(`Olá ${nome}, seu cargo é ${numeroCargo}, vamos te redirecionar para a página desejada`);
                 break;
 
